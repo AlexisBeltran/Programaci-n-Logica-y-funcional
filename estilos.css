@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: rgba(73, 73, 167, 0.74);
+}
+
+
+div.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.content h1{
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+div.content p{
+    color: #FFF;
+    font-weight: bold;
+}
